@@ -1,7 +1,7 @@
 import mysql.connector 
 server = "localhost"
 user = "root"
-pasx = "buendovinooZ01@"
+pasx = "your_password"
 db = "records"
 try:
     conn = mysql.connector.connect(host=server,username=user,password=pasx,database=db)
